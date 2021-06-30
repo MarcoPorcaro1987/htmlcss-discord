@@ -1,5 +1,67 @@
+/*Reset*/
+
 * {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/*Common*/
+
+.container {
+    max-width: 1000px;
+
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.buttons {
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: 30px;
+    border: 0ch;
+
+}
+/*Header*/ 
+
+header {
+    background-color: #3161e0;
+    padding: 20px;
+}
+
+.logo, .navigator, .login {
+    float: left;
+}
+
+.logo {
+    width: 20%;
+}
+
+.navigator {
+    width: calc(60% - 80px);
+    margin: 0 40px;
+    text-align: center;
+}
+
+.login {
+    width: 20%;
+    text-align: right;
+}
+
+
+nav li {
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
