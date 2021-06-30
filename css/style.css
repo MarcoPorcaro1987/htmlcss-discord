@@ -9,11 +9,16 @@
 html {
     scroll-behavior: smooth;
 }
+
 /*Common*/
 
+body {
+    font-family: 'Lato', sans-serif;     
+}
 
 .container {
     max-width: 1000px;
+    position: relative;
 
 }
 
@@ -24,16 +29,28 @@ html {
 }
 
 .buttons {
-    padding: 10px 12px;
+    padding: 9px 12px;
     background-color: white;
     border-radius: 30px;
     border: 0ch;
-
 }
+
+.background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    max-width: 650px;
+}
+
 /*Header*/ 
 
 header {
     background-color: #3161e0;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    width: 100%;
     padding: 15px;
 }
 
@@ -43,6 +60,10 @@ header {
 
 .logo {
     width: 20%;
+}
+
+.img-logo {
+    height: 30px;
 }
 
 .navigator {
@@ -66,7 +87,13 @@ li a {
     text-decoration: none;
     color: white;
     margin-right: 20px;
+    padding: 20px 0;
 }
+
+li a:hover{
+    color: red;
+}
+
 
 /*Hero*/
 
@@ -75,25 +102,27 @@ li a {
     height: 500px;
     background-size: cover;
     position: relative;
-  
+    text-align: center;
     
 }
 
-.hero-background {
+
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.text-hero{
     color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 600px;
     text-align: center;
 }
 
-h1 {
-    font-size: 45px;
-    margin-bottom: 30px;
+.text-hero p{
+    font-size: 18px;
+    
 }
-
 .hero-button {
     margin-top: 30px;
 }
@@ -107,3 +136,42 @@ h1 {
     background-color: #23272a;
     margin-left: 15px;
 }
+
+/*Sezione 2*/
+
+.sfondo1 {
+    background-color: #ffffff;
+    padding-top: 100px;
+}
+
+.col-left, .col-right {
+    float: left;
+}
+
+.col-left {
+    width: calc(70% - 80px);
+    padding-right: 80px;
+    position: absolute;
+    left: 0;
+}
+
+.col-right{
+    width: 30%;
+    position: absolute;
+    right: 0;
+  
+}
+.photo-item {
+    width: 100%;
+}
+
+.text-section{
+    color:#23272a;
+}
+
+h2 {
+    font-size: 37px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
