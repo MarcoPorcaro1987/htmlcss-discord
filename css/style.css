@@ -6,8 +6,11 @@
     box-sizing: border-box;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 /*Common*/
+
 
 .container {
     max-width: 1000px;
@@ -21,7 +24,7 @@
 }
 
 .buttons {
-    padding: 8px 10px;
+    padding: 10px 12px;
     background-color: white;
     border-radius: 30px;
     border: 0ch;
@@ -31,7 +34,7 @@
 
 header {
     background-color: #3161e0;
-    padding: 20px;
+    padding: 15px;
 }
 
 .logo, .navigator, .login {
@@ -65,3 +68,42 @@ li a {
     margin-right: 20px;
 }
 
+/*Hero*/
+
+.hero {
+    background-image:url(../img/jumbo.png);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+  
+    
+}
+
+.hero-background {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    margin-top: 30px;
+}
+
+.fa-long-arrow-alt-down{
+    margin-right: 4px;
+}
+
+#browser-discord{
+    color: white;
+    background-color: #23272a;
+    margin-left: 15px;
+}
