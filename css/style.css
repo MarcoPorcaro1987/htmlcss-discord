@@ -29,9 +29,10 @@ body {
 }
 
 .buttons {
-    padding: 9px 12px;
+    display: inline-block;
+    padding: 9px 19px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 25px;
     border: 0ch;
 }
 
@@ -67,8 +68,7 @@ header {
 }
 
 .navigator {
-    width: calc(60% - 80px);
-    margin: 0 40px;
+    width: 60%;
     text-align: center;
 }
 
@@ -79,8 +79,9 @@ header {
 
 
 nav li {
-    display: inline-block; 
+    display: inline-block;  
     vertical-align: middle;
+    
 }
 
 li a {
@@ -103,10 +104,7 @@ li a:hover{
     background-size: cover;
     position: relative;
     text-align: center;
-    
 }
-
-
 
 h1 {
     font-size: 48px;
@@ -149,29 +147,31 @@ h1 {
 }
 
 .col-left {
-    width: calc(70% - 80px);
-    padding-right: 80px;
+    width: calc(70%);
     position: absolute;
     left: 0;
+    text-align: right;
 }
 
 .col-right{
     width: 30%;
     position: absolute;
     right: 0;
-  
 }
+
 .photo-item {
-    width: 100%;
+    height: 325px;
+    padding-right: 100px;
 }
 
 .text-section{
     color:#23272a;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 h2 {
     font-size: 37px;
     margin-bottom: 20px;
-    margin-top: 10px;
 }
 
