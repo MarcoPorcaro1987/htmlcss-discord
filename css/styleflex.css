@@ -1,0 +1,169 @@
+/*Reset*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Common*/
+
+body {
+    font-family: 'Lato', sans-serif;     
+}
+
+.container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 12px 19px;
+    background-color: white;
+    border-radius: 25px;
+    border: 0ch;
+    font-size: 16px;
+}
+
+.background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    max-width: 650px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+li a:hover{
+    color: red;
+}
+
+.sfondo1 {
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-top: 66.4px;
+}
+section p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+
+/*Header*/ 
+
+header {
+    background-color: #3161e0;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    width: 100%;
+    padding: 15px;
+   
+}
+
+.logo, .login {
+    width: 25%;
+}
+
+.navigator {
+    width: 50%;
+}
+
+.navigator ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.img-logo {
+    height: 30px;
+    vertical-align: middle;
+}
+
+.login{
+    text-align: right;
+}
+
+.login-button {
+    padding: 9px 19px;
+}
+
+
+/*Hero*/
+
+.hero {
+    background-image:url(../img/jumbo.png);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.text-hero{
+    color: white;
+    text-align: center;
+}
+
+.text-hero p{
+    font-size: 18px;
+    
+}
+.hero-button {
+    margin-top: 30px;
+}
+
+.fa-long-arrow-alt-down{
+    margin-right: 4px;
+}
+
+#browser-discord{
+    color: white;
+    background-color: #23272a;
+    margin-left: 15px;
+}
+
+/*why-section*/
+
+.col-left {
+    width: 50%;
+    text-align: right;
+}
+
+.col-right{
+    width: 28%;
+}
+
+.photo-item {
+    height: 375px;
+}
+
+.text-section{
+    color:#23272a;
+    padding-top: 90px;
+}
+
